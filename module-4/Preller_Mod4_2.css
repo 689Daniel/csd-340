@@ -1,0 +1,43 @@
+h1, h3 {
+	text-align: center;
+}
+
+h1 {
+	color: rgba(0, 138, 230, 1);
+}
+
+h3, figcaption {
+	color: rgba(0, 142, 0, 1);
+}
+
+.image-gallery {
+	display: grid;
+	grid-template-columns: 1fr, 1fr, 1fr;
+	margin-top: 10%;
+}
+
+a {
+	text-align: right;
+	grid-column-start: 3;
+	margin-top: 10%;
+}
+
+img {
+	width: 33%;
+}
+
+figure {
+	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
+	font-size: .75em;
+}
+
+div.side-div {
+	grid-column-start: auto;
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgba(0, 110, 230, 1);
+}
