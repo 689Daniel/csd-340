@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>CSD 340 Development with HTML and CSS</title>
+		<meta name="author"
+			content="Daniel Preller" />
+		<meta name="pragma"
+			content="no-cache" />
+		<script src = "Preller_Mod10_3.js"></script>
+		<style>
+			img {
+				width: 600px;
+				display: block;
+			}
+		</style>
+	</head>
+	<h1>Assignment 10.3: JavaScript - Part 2</h1>
+	<div id = "container">
+		<img src = "images/Trees-Day.png" id = "trees" onmouseover="trees.src='images/Trees-Night.png'" onmouseout="trees.src='images/Trees-Day.png'" onclick = "showMessage('trees')">
+		Hover over an image to change it
+		<img src = "images/Pumpkin1.png" id = "pumpkin" onmouseover="pumpkin.src='images/Pumpkin2.png'" onmouseout="pumpkin.src='images/pumpkin1.png'" onclick = "showMessage('jack-o-lantern')">
+		Click on an image to display a message
+		<p id="message"></p>
+		
+	</div>
+</html>
