@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>CSD 340 Development with HTML and CSS</title>
+		<meta name="author"
+			content="Daniel Preller" />
+		<meta name="pragma"
+			content="no-cache" />
+		<script src = "Preller_Mod11_2.js"></script>
+	</head>
+	<body>
+		<h1>Assignment 11.2: JavaScript - Part 3</h1>
+		<p>This page is an interactive to-do list.<br>
+		To add a new item, enter the item in the text box and click Add.<br>
+		To show the list, click Display list.<br>
+		To check off an item, click the matching Delete button.</p>
+		<form>
+			<label for="newItem">Enter a new list item:</label>
+			<input type="text" id="newItem" name="newItem">
+			<button onclick = "addListItem()">Add</button>
+			<button onclick = "displayList()">Display list</button>
+		</form>
+		<hr>
+		<ol id="listArea"></ol>
+	</body>
+</html>
